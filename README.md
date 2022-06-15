@@ -1,10 +1,10 @@
-# <h1> Jogo da Forca - Changelle 2 </h1>
+#  Jogo da Forca - Changelle 2  :books:
 
 #### Projeto da Formação Oracle ONE  juntamente com a ALURA.
 
-## Descrição do Desafio
+## Descrição do Desafio :computer:
 
-### Requisitos:
+### Requisitos: :electron:
 - Deve funcionar só com letras maiúsculas;
 - Não devem ser utilizadas letras com acentos nem caracteres especiais;
 - Ao completar o desenho da forca, deve ser exibida uma mensagem na tela de "Fim de Jogo";
@@ -15,7 +15,7 @@
 - As letras erradas devem aparecer na tela, mas não podem aparecer repetidamente;
 - As letras corretas devem ser mostradas na tela acima dos traços, nas posições corretas em relação à palavra.
 
-###  Extras:
+###  Extras: :electron:
 - A página deve conter um campo para inserção de texto com a finalidade de adicionar novas palavras ao jogo, e um botão "Adicionar nova palavra".
 
 ## Publicação no GitHub Pages.
