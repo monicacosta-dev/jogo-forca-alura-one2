@@ -32,3 +32,19 @@
 - ALURA
 
 ## Publicação no GitHub Pages.
+
+https://monicacosta-dev.github.io/jogo-forca-alura-one2/
+
+## Agradecimentos:
+
+ - ALURA
+ - ORACLE - ONE 
+
+Um agradecimento ao colegas abaixo em especial: 
+
+ - Victor Laguna (https://github.com/VictorLagunaR) 
+ - Sthefany Alves (https://github.com/BlackStarSt)
+ - Italo Rissardi (https://github.com/itariss)
+
+#### E toda a turma 2 - que tanto trocam experiencia atravez do discord!
+
