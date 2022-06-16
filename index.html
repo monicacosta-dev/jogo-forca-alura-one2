@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro&family=Ubuntuwght300;400;500&display=swap">
+    <title>Jogo da forca - Alura - ONE</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <span>
+            <a href="https://www.alura.com.br/"><img src="img/logo.png" alt="Logo Alura"></a>
+        </span>
+        </header>
+
+        <section id="btnInicio">
+            <button id="comecarJogo" class="btn-principal">Começar a jogar</button>
+            <button id="btnAdicionarPalavra" class="btn-secundario">Adicionar nova palavra</button>
+        </section>
+
+        <section class="jogo-da-forca">
+            <main>
+                <h1>Digite no teclado uma letra e tente adivinhar a palavra!</h1>
+                <div class="mensagens">
+                    <canvas width="350px" height="300px"></canvas>
+                    <div class="mensagem">
+                        <h2 class="perdedor"></h2>
+                        <h2 class="vencedor"></h2>
+                    </div>
+                </div>
+                <div class="palavras">
+                    <div class="palavra-secreta"></div>
+                    <div class="letras-erradas"></div>
+                </div>
+            </main>
+            <div class="botoes">
+                <button id="novoJogo" class="btn-principal" onclick="novoJogo()">Novo Jogo</button>
+                <button id="desistir" class="btn-secundario" onclick="desistir()">Desistir</button>
+            </div>
+        </section>
+        <section id="addPalavra">
+            <form method="get" id="form">
+                <textarea name="nova-palavra" id="nova-palavra" cols="30" rows="10" placeholder="Digite a nova palavra aqui" re></textarea>
+                <div id="importante">
+                    <ion-icon name="alert-circle-sharp"></ion-icon>
+                    <p>Máx. de 8 letras</p>
+                </div>
+                <div class="botoes">
+                    <button id="enviar-palavra" class="btn-principal">Salvar e enviar</button>
+                    <button id="cancelar" class="btn-secundario">Cancelar</button>
+                </div>
+            </form>
+        </section>
+
+    </div>
+    <footer>
+        <div class="links">
+            <p class="copyright">&copy;Mônica Costa - Formação Oracle Next Education - Alura</p>
+            <a href="https://www.linkedin.com/in/monica-costa-5572a929/" target="_blank">
+                <img src="img/linkedin.png">
+            </a>
+            <a href="https://github.com/monicacosta-dev" target="_blank">
+                <img src="img/github.png">
+            </a>
+
+        </div>
+    </footer>
+
+    <script src="js/jogo.js"></script>
+    <script src="js/add-palavras.js"></script>
+    <script src="js/corpodaforca.js"></script>
+    <script src="js/palavras.js"></script>
+
+</body>
+
+</html>
